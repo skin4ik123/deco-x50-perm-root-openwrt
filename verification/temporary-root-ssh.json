@@ -1,0 +1,8 @@
+{
+  "actual_arm64_temporary_dropbear": true,
+  "ed25519_generation_and_reload": true,
+  "private_input_cleared_after_load": true,
+  "public_key_authentication": true,
+  "command_uid0": true,
+  "real_router_tested": false
+}

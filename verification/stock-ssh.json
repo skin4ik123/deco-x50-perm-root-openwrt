@@ -1,0 +1,7 @@
+{
+  "actual_oem_arm64_dropbear": true,
+  "production_ssh_policy": true,
+  "key_exchange_completed": true,
+  "authentication_reached": true,
+  "real_owner_authentication_tested": false
+}

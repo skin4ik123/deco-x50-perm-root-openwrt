@@ -1,0 +1,13 @@
+{
+  "architecture": "aarch64-linux-musl",
+  "static": true,
+  "bytes": 34984,
+  "sha256": "f45c4f94e006951c3a25ba32fab8e76a08c72937d452bbe8778262965f8d40b4",
+  "reader_source_sha256": "e981764db2c0ae06b98af314ba9cad8e06c430ef096e7ff8f573ed2d13e1c216",
+  "libtomcrypt_archive_sha256": "e9ae8a450767bdb3c11ffca4961daf92fea2e0f04cb13531bd84e623b9f9a80a",
+  "libtomcrypt_source": "https://github.com/mkj/dropbear/tree/28216cd9af822732a1549b78621c2ea9a76a0fe5/libtomcrypt",
+  "mtd_abi_source": "https://github.com/torvalds/linux/blob/v4.4/include/uapi/mtd/mtd-abi.h",
+  "flash_write_apis": false,
+  "oob_backup": false,
+  "real_nand_tested": false
+}

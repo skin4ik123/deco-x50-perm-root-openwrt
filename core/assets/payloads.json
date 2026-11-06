@@ -1,0 +1,16 @@
+{
+  "temporary_binary_sha1": "211d4831cdc9a9b87367c3ee2e7ba759e5dcf500",
+  "temporary_binary_parts": 42,
+  "password_binary_sha1": "18ed1bbb1fbd845eca6be5b979699c5c013ca519",
+  "nand_helper_sha256": "f45c4f94e006951c3a25ba32fab8e76a08c72937d452bbe8778262965f8d40b4",
+  "sources_sha256": {
+    "include.lua": "ef5b342c867689b592624be4e715b982e0acf140041c9cad68afdb7480fffb6d",
+    "launch.sh": "6093abc56130b073913b4cafe44bd52e762edba8411d83df22cecabbcaca1355",
+    "password.lua": "1f08d50068c116f231c4d811b289d02e2fc0d1c2c6006c76606bbb8d47eed6f9",
+    "ssh-service.sh": "ccf02a401c2ccb153af6210e49da9866581abbe30b6ae65e950347a53ee41535",
+    "ssh-append.sh": "fac0cfd58c9657adb038d69bcf4df596166f0722b512eae368753f0a4e235539",
+    "bootstrap.lua": "22eb9a5f7b5a2fdfe4cfee660285329e756dc8d6b545a33ae452fc1d15dce1cf",
+    "restore.lua": "86155fb9ee9f273a82eef17025d391bf0a8e1960a1d09470ea32040c4a95d429",
+    "base64.lua": "36a267adf6b56179513143eb333759c5eec58da4dbfd680c95c641e5b79ee127"
+  }
+}

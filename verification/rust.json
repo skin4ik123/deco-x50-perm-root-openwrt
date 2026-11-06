@@ -1,0 +1,16 @@
+{
+  "version": "1.1.1",
+  "passed": 44,
+  "failed": 0,
+  "ram_boot_tests": 24,
+  "source_sha256": "dc5e7a88f2229ba052c79b274ebdab8726f7515164b5097783d3dc3622ec189d",
+  "ram_boot_source_sha256": "47b453d93cb5ccf9a7c270ba2f930bd44dec9d5693ce26d8f6809c1681b1d55e",
+  "scope": "Synthetic environments and platform callbacks; no router actions",
+  "same_boot_unknown_writer_never_replayed": true,
+  "separate_openwrt_ssh_and_identity_checked": true,
+  "operation_nonce_required_in_kernel_command_line": true,
+  "private_storage_source_sha256": "f7d0ca5bec7c1dd3d0875bb31eabc5391bc294b46871af84e99fd74354c295b7",
+  "android_style_mode_0771_reproduced_and_repaired": true,
+  "actual_jni_storage_calls": 200,
+  "actual_jni_readonly_ram_calls": 200
+}

@@ -1,0 +1,12 @@
+{
+  "temporary": {
+    "type": "str",
+    "defines": 15,
+    "sha256": "4ba88af2bc0b647ecce75d97528c156d34c83937962d19022b0c2fdc70df2c87"
+  },
+  "password": {
+    "type": "dict",
+    "defines": 17,
+    "sha256": "a358b9ed5e2759087bd05a2a360385128d0a44b1ad3421b56f6e5d2dce861ea4"
+  }
+}

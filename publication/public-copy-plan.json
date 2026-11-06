@@ -1,0 +1,61 @@
+{
+  "canonical_input": "audited original Deco-Control-1.1.1 source archive",
+  "copy_all_original_archive_files": true,
+  "whitelist_toplevel": [
+    ".gitignore",
+    "LICENSE",
+    "README.md",
+    "build.gradle.kts",
+    "gradle.properties",
+    "settings.gradle.kts",
+    "terminal-upstream.json",
+    "app/",
+    "core/",
+    "third-party/",
+    "tools/",
+    "verification/"
+  ],
+  "never_copy_from_workspace": [
+    "PROJECT_MEMORY.json",
+    "local.properties",
+    "*.log",
+    "build/",
+    "app/build/",
+    "core/target/",
+    "release/",
+    ".gradle/",
+    ".kotlin/",
+    "**/*.jks",
+    "**/*.keystore",
+    "backups/",
+    "nodes/",
+    "exports/",
+    "real firmware runtime extractions",
+    "private evidence and coordination directories"
+  ],
+  "mandatory_keep": [
+    "core/Cargo.lock",
+    "core/assets/*",
+    "app/src/main/assets/*",
+    "app/src/main/jniLibs/arm64-v8a/libdeco_core.so",
+    "third-party/dropbear/upstream-28216cd.tar.gz",
+    "third-party/dropbear/*.patch",
+    "third-party/dropbear/*-BUILD.json",
+    "third-party/dropbear/*.c",
+    "third-party/dropbear/LICENSE.*",
+    "third-party/LICENSE.termux",
+    "terminal-upstream.json",
+    "all com/termux Java sources and original headers"
+  ],
+  "public_preparation_changes_recommended": [
+    "README with exact original image pin and separate experimental Ethernet/NSS scope",
+    "generic toolchain and signing env paths instead of private server defaults",
+    "build-components.py support localoptions str and dict; validate both without rebuilding components",
+    "portable release tooling supports apksigner output from pinned36.0.0; 37.0.0 certificate label differs",
+    "retain original signing identity assertion for official releases; forks use own debug identity clearly labeled",
+    "document no Gradle wrapper: install/use Gradle9.8.2",
+    "document private OEM-runtime-based verification prerequisites without redistributing OEM firmware",
+    "add complete direct/transitive dependency notice inventory and applicable license texts"
+  ],
+  "source_preparation_caution": "Any host-portability script change means public tree differs from original ZIP; record original archive SHA/provenance and changed file list. Do not modify Kotlin/Rust/native assets or silently rebuild APK for this publication."
+}

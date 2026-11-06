@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-06",
+  "publication_only": true,
+  "runtime_and_bundled_component_files_compared": 127,
+  "all_runtime_and_bundled_component_inputs_unchanged": true,
+  "ethernet_isolated_shell_tests": {
+    "passed": 8,
+    "failed": 0
+  },
+  "POSIX_and_BusyBox_ash_syntax": "PASS",
+  "build_core_bash_syntax": "PASS",
+  "all_build_helpers_python_syntax": "PASS",
+  "Dropbear_localoptions_profiles": {
+    "temporary": "str, 15 defines",
+    "password": "dict, 17 defines"
+  },
+  "apk_signature": "PASS, original stable certificate",
+  "apk_16KiB_zip_alignment": "PASS",
+  "private_filename_key_token_scan": "PASS",
+  "new_APK_or_module_build_performed": false,
+  "new_gradle_configuration_run": false,
+  "gradle_configuration_note": "Common heavy-build slot was occupied. Original release signing DSL behavior retained; only private default filename changed. Existing APK, runtime code, native assets and prior build reports preserved.",
+  "hardware_validation_scope": "See SCOPE.json: earlier root, original TFTP RAM image and two-stage Ethernet access owner-confirmed; full APK wizard phone test not established. Separate permanent installation from RAM now owner-confirmed on X50 V1."
+}

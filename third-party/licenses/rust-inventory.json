@@ -1,0 +1,751 @@
+[
+  {
+    "name": "adler2",
+    "version": "2.0.1",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "0BSD OR MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/adler2/2.0.1",
+    "license_files": [
+      "LICENSE-0BSD",
+      "LICENSE-MIT",
+      "LICENSE-APACHE"
+    ],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "base64",
+    "version": "0.23.1",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/base64/0.23.1",
+    "license_files": [
+      "LICENSE-MIT",
+      "LICENSE-APACHE"
+    ],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "block-buffer",
+    "version": "0.12.1",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/block-buffer/0.12.1",
+    "license_files": [
+      "LICENSE-MIT",
+      "LICENSE-APACHE"
+    ],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "bumpalo",
+    "version": "3.20.3",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": null,
+    "source": "https://crates.io/crates/bumpalo/3.20.3",
+    "license_files": [],
+    "cached_metadata_available": false
+  },
+  {
+    "name": "bytes",
+    "version": "1.12.1",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "MIT",
+    "source": "https://crates.io/crates/bytes/1.12.1",
+    "license_files": [
+      "LICENSE"
+    ],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "cesu8",
+    "version": "1.1.0",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "Apache-2.0/MIT",
+    "source": "https://crates.io/crates/cesu8/1.1.0",
+    "license_files": [
+      "COPYRIGHT-RUST.txt"
+    ],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "cfg-if",
+    "version": "1.0.5",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/cfg-if/1.0.5",
+    "license_files": [
+      "LICENSE-MIT",
+      "LICENSE-APACHE"
+    ],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "combine",
+    "version": "4.6.9",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "MIT",
+    "source": "https://crates.io/crates/combine/4.6.9",
+    "license_files": [
+      "LICENSE"
+    ],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "const-oid",
+    "version": "0.10.2",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "Apache-2.0 OR MIT",
+    "source": "https://crates.io/crates/const-oid/0.10.2",
+    "license_files": [
+      "LICENSE-MIT",
+      "LICENSE-APACHE"
+    ],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "cpufeatures",
+    "version": "0.3.1",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/cpufeatures/0.3.1",
+    "license_files": [
+      "LICENSE-MIT",
+      "LICENSE-APACHE"
+    ],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "crc32fast",
+    "version": "1.5.4",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/crc32fast/1.5.4",
+    "license_files": [
+      "LICENSE-MIT",
+      "LICENSE-APACHE"
+    ],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "crypto-common",
+    "version": "0.2.2",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/crypto-common/0.2.2",
+    "license_files": [
+      "LICENSE-MIT",
+      "LICENSE-APACHE"
+    ],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "digest",
+    "version": "0.11.3",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/digest/0.11.3",
+    "license_files": [
+      "LICENSE-MIT",
+      "LICENSE-APACHE"
+    ],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "flate2",
+    "version": "1.1.10",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/flate2/1.1.10",
+    "license_files": [
+      "LICENSE-MIT",
+      "LICENSE-APACHE"
+    ],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "futures-core",
+    "version": "0.3.34",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": null,
+    "source": "https://crates.io/crates/futures-core/0.3.34",
+    "license_files": [],
+    "cached_metadata_available": false
+  },
+  {
+    "name": "futures-task",
+    "version": "0.3.34",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": null,
+    "source": "https://crates.io/crates/futures-task/0.3.34",
+    "license_files": [],
+    "cached_metadata_available": false
+  },
+  {
+    "name": "futures-util",
+    "version": "0.3.34",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": null,
+    "source": "https://crates.io/crates/futures-util/0.3.34",
+    "license_files": [],
+    "cached_metadata_available": false
+  },
+  {
+    "name": "getrandom",
+    "version": "0.4.3",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/getrandom/0.4.3",
+    "license_files": [
+      "LICENSE-MIT",
+      "LICENSE-APACHE"
+    ],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "hybrid-array",
+    "version": "0.4.15",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/hybrid-array/0.4.15",
+    "license_files": [
+      "LICENSE-MIT",
+      "LICENSE-APACHE"
+    ],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "itoa",
+    "version": "1.0.18",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/itoa/1.0.18",
+    "license_files": [
+      "LICENSE-MIT",
+      "LICENSE-APACHE"
+    ],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "jni",
+    "version": "0.21.1",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "MIT/Apache-2.0",
+    "source": "https://crates.io/crates/jni/0.21.1",
+    "license_files": [
+      "LICENSE-MIT",
+      "LICENSE-APACHE"
+    ],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "jni-sys",
+    "version": "0.3.1",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/jni-sys/0.3.1",
+    "license_files": [
+      "LICENSE-MIT",
+      "LICENSE-APACHE"
+    ],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "jni-sys",
+    "version": "0.4.1",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/jni-sys/0.4.1",
+    "license_files": [
+      "LICENSE-MIT",
+      "LICENSE-APACHE"
+    ],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "jni-sys-macros",
+    "version": "0.4.1",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/jni-sys-macros/0.4.1",
+    "license_files": [],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "js-sys",
+    "version": "0.3.107",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": null,
+    "source": "https://crates.io/crates/js-sys/0.3.107",
+    "license_files": [],
+    "cached_metadata_available": false
+  },
+  {
+    "name": "libc",
+    "version": "0.2.191",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/libc/0.2.191",
+    "license_files": [
+      "LICENSE-MIT",
+      "LICENSE-APACHE"
+    ],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "log",
+    "version": "0.4.35",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/log/0.4.35",
+    "license_files": [
+      "LICENSE-MIT",
+      "LICENSE-APACHE"
+    ],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "memchr",
+    "version": "2.8.3",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "Unlicense OR MIT",
+    "source": "https://crates.io/crates/memchr/2.8.3",
+    "license_files": [
+      "LICENSE-MIT",
+      "COPYING"
+    ],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "miniz_oxide",
+    "version": "0.9.1",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "MIT OR Zlib OR Apache-2.0",
+    "source": "https://crates.io/crates/miniz_oxide/0.9.1",
+    "license_files": [
+      "LICENSE-MIT.md",
+      "LICENSE-ZLIB.md",
+      "LICENSE",
+      "LICENSE-APACHE.md"
+    ],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "pin-project-lite",
+    "version": "0.2.17",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": null,
+    "source": "https://crates.io/crates/pin-project-lite/0.2.17",
+    "license_files": [],
+    "cached_metadata_available": false
+  },
+  {
+    "name": "proc-macro2",
+    "version": "1.0.107",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/proc-macro2/1.0.107",
+    "license_files": [
+      "LICENSE-MIT",
+      "LICENSE-APACHE"
+    ],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "quote",
+    "version": "1.0.47",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/quote/1.0.47",
+    "license_files": [
+      "LICENSE-MIT",
+      "LICENSE-APACHE"
+    ],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "r-efi",
+    "version": "6.0.0",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": null,
+    "source": "https://crates.io/crates/r-efi/6.0.0",
+    "license_files": [],
+    "cached_metadata_available": false
+  },
+  {
+    "name": "rustversion",
+    "version": "1.0.23",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": null,
+    "source": "https://crates.io/crates/rustversion/1.0.23",
+    "license_files": [],
+    "cached_metadata_available": false
+  },
+  {
+    "name": "same-file",
+    "version": "1.0.6",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "Unlicense/MIT",
+    "source": "https://crates.io/crates/same-file/1.0.6",
+    "license_files": [
+      "LICENSE-MIT",
+      "COPYING"
+    ],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "serde",
+    "version": "1.0.229",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/serde/1.0.229",
+    "license_files": [
+      "LICENSE-MIT",
+      "LICENSE-APACHE"
+    ],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "serde_core",
+    "version": "1.0.229",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/serde_core/1.0.229",
+    "license_files": [
+      "LICENSE-MIT",
+      "LICENSE-APACHE"
+    ],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "serde_derive",
+    "version": "1.0.229",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/serde_derive/1.0.229",
+    "license_files": [
+      "LICENSE-MIT",
+      "LICENSE-APACHE"
+    ],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "serde_json",
+    "version": "1.0.154",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/serde_json/1.0.154",
+    "license_files": [
+      "LICENSE-MIT",
+      "LICENSE-APACHE"
+    ],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "sha1",
+    "version": "0.11.0",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/sha1/0.11.0",
+    "license_files": [
+      "LICENSE-MIT",
+      "LICENSE-APACHE"
+    ],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "sha2",
+    "version": "0.11.1",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/sha2/0.11.1",
+    "license_files": [
+      "LICENSE-MIT",
+      "LICENSE-APACHE"
+    ],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "simd-adler32",
+    "version": "0.3.10",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "MIT",
+    "source": "https://crates.io/crates/simd-adler32/0.3.10",
+    "license_files": [
+      "LICENSE.md"
+    ],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "slab",
+    "version": "0.4.12",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": null,
+    "source": "https://crates.io/crates/slab/0.4.12",
+    "license_files": [],
+    "cached_metadata_available": false
+  },
+  {
+    "name": "syn",
+    "version": "2.0.119",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/syn/2.0.119",
+    "license_files": [
+      "LICENSE-MIT",
+      "LICENSE-APACHE"
+    ],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "syn",
+    "version": "3.0.9",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/syn/3.0.9",
+    "license_files": [
+      "LICENSE-MIT",
+      "LICENSE-APACHE"
+    ],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "thiserror",
+    "version": "1.0.69",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/thiserror/1.0.69",
+    "license_files": [
+      "LICENSE-MIT",
+      "LICENSE-APACHE"
+    ],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "thiserror-impl",
+    "version": "1.0.69",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/thiserror-impl/1.0.69",
+    "license_files": [
+      "LICENSE-MIT",
+      "LICENSE-APACHE"
+    ],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "typenum",
+    "version": "1.20.1",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "MIT OR Apache-2.0",
+    "source": "https://crates.io/crates/typenum/1.20.1",
+    "license_files": [
+      "LICENSE-MIT",
+      "LICENSE-APACHE",
+      "LICENSE"
+    ],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "unicode-ident",
+    "version": "1.0.27",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "(MIT OR Apache-2.0) AND Unicode-3.0",
+    "source": "https://crates.io/crates/unicode-ident/1.0.27",
+    "license_files": [
+      "LICENSE-MIT",
+      "LICENSE-APACHE",
+      "LICENSE-UNICODE"
+    ],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "uuid",
+    "version": "1.29.0",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "Apache-2.0 OR MIT",
+    "source": "https://crates.io/crates/uuid/1.29.0",
+    "license_files": [
+      "LICENSE-MIT",
+      "LICENSE-APACHE"
+    ],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "walkdir",
+    "version": "2.5.0",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "Unlicense/MIT",
+    "source": "https://crates.io/crates/walkdir/2.5.0",
+    "license_files": [
+      "LICENSE-MIT",
+      "COPYING"
+    ],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "wasm-bindgen",
+    "version": "0.2.130",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": null,
+    "source": "https://crates.io/crates/wasm-bindgen/0.2.130",
+    "license_files": [],
+    "cached_metadata_available": false
+  },
+  {
+    "name": "wasm-bindgen-macro",
+    "version": "0.2.130",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": null,
+    "source": "https://crates.io/crates/wasm-bindgen-macro/0.2.130",
+    "license_files": [],
+    "cached_metadata_available": false
+  },
+  {
+    "name": "wasm-bindgen-macro-support",
+    "version": "0.2.130",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": null,
+    "source": "https://crates.io/crates/wasm-bindgen-macro-support/0.2.130",
+    "license_files": [],
+    "cached_metadata_available": false
+  },
+  {
+    "name": "wasm-bindgen-shared",
+    "version": "0.2.130",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": null,
+    "source": "https://crates.io/crates/wasm-bindgen-shared/0.2.130",
+    "license_files": [],
+    "cached_metadata_available": false
+  },
+  {
+    "name": "winapi-util",
+    "version": "0.1.11",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": null,
+    "source": "https://crates.io/crates/winapi-util/0.1.11",
+    "license_files": [],
+    "cached_metadata_available": false
+  },
+  {
+    "name": "windows-link",
+    "version": "0.2.1",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": null,
+    "source": "https://crates.io/crates/windows-link/0.2.1",
+    "license_files": [],
+    "cached_metadata_available": false
+  },
+  {
+    "name": "windows-sys",
+    "version": "0.45.0",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": null,
+    "source": "https://crates.io/crates/windows-sys/0.45.0",
+    "license_files": [],
+    "cached_metadata_available": false
+  },
+  {
+    "name": "windows-sys",
+    "version": "0.61.2",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": null,
+    "source": "https://crates.io/crates/windows-sys/0.61.2",
+    "license_files": [],
+    "cached_metadata_available": false
+  },
+  {
+    "name": "windows-targets",
+    "version": "0.42.2",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": null,
+    "source": "https://crates.io/crates/windows-targets/0.42.2",
+    "license_files": [],
+    "cached_metadata_available": false
+  },
+  {
+    "name": "windows_aarch64_gnullvm",
+    "version": "0.42.2",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": null,
+    "source": "https://crates.io/crates/windows_aarch64_gnullvm/0.42.2",
+    "license_files": [],
+    "cached_metadata_available": false
+  },
+  {
+    "name": "windows_aarch64_msvc",
+    "version": "0.42.2",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": null,
+    "source": "https://crates.io/crates/windows_aarch64_msvc/0.42.2",
+    "license_files": [],
+    "cached_metadata_available": false
+  },
+  {
+    "name": "windows_i686_gnu",
+    "version": "0.42.2",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": null,
+    "source": "https://crates.io/crates/windows_i686_gnu/0.42.2",
+    "license_files": [],
+    "cached_metadata_available": false
+  },
+  {
+    "name": "windows_i686_msvc",
+    "version": "0.42.2",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": null,
+    "source": "https://crates.io/crates/windows_i686_msvc/0.42.2",
+    "license_files": [],
+    "cached_metadata_available": false
+  },
+  {
+    "name": "windows_x86_64_gnu",
+    "version": "0.42.2",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": null,
+    "source": "https://crates.io/crates/windows_x86_64_gnu/0.42.2",
+    "license_files": [],
+    "cached_metadata_available": false
+  },
+  {
+    "name": "windows_x86_64_gnullvm",
+    "version": "0.42.2",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": null,
+    "source": "https://crates.io/crates/windows_x86_64_gnullvm/0.42.2",
+    "license_files": [],
+    "cached_metadata_available": false
+  },
+  {
+    "name": "windows_x86_64_msvc",
+    "version": "0.42.2",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": null,
+    "source": "https://crates.io/crates/windows_x86_64_msvc/0.42.2",
+    "license_files": [],
+    "cached_metadata_available": false
+  },
+  {
+    "name": "zlib-rs",
+    "version": "0.6.8",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "Zlib",
+    "source": "https://crates.io/crates/zlib-rs/0.6.8",
+    "license_files": [
+      "LICENSE"
+    ],
+    "cached_metadata_available": true
+  },
+  {
+    "name": "zmij",
+    "version": "1.0.23",
+    "scope": "Cargo.lock entry; includes build/other-target dependencies, not an APK contents assertion",
+    "license": "MIT",
+    "source": "https://crates.io/crates/zmij/1.0.23",
+    "license_files": [
+      "LICENSE-MIT"
+    ],
+    "cached_metadata_available": true
+  }
+]

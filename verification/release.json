@@ -1,0 +1,19 @@
+{
+  "version": "1.1.1",
+  "application_id": "com.internetdeco.decocontrol",
+  "signed": true,
+  "signer_sha256": "7a19db762989d9f2106df2c3e5f1a150ab80c0e00dddfbf2520a7f7161887c55",
+  "apk_sha256": "b09c99d71aa12ae4524c0165c3153a0770b076f069c713752b7a091789d54a84",
+  "apk_bytes": 14284427,
+  "release_tests_passed": 83,
+  "rust_tests_passed": 44,
+  "lint_errors": 0,
+  "lint_warnings": 21,
+  "page_alignment_16KiB": true,
+  "fresh_rust_engine_verified": true,
+  "previous_release_root_confirmed_by_owner": true,
+  "original_tftp_ram_route_confirmed_by_owner": true,
+  "this_release_real_android_phone_tested": false,
+  "permanent_firmware_flashing": false,
+  "live_wifi_ssh_timeout_cause_confirmed": false
+}

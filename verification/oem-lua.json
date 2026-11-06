@@ -1,0 +1,9 @@
+{
+  "kind": "exact-OEM-ARM64-Lua-nixio-production-script-check",
+  "scripts_passed": 12,
+  "write_parent_symlink_rejected": true,
+  "write_final_symlink_rejected": true,
+  "write_hardlink_rejected": true,
+  "synthetic_fixtures_only": true,
+  "real_router_tested": false
+}

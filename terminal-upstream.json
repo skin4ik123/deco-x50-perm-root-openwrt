@@ -1,0 +1,22 @@
+{
+  "repository": "https://github.com/termux/termux-app",
+  "tag": "v0.118.3",
+  "commit": "5b657c6adf4304e5198951ce815fe0205dcac29c",
+  "paths": [
+    "terminal-emulator/src/main/java/com/termux/terminal/ByteQueue.java",
+    "terminal-emulator/src/main/java/com/termux/terminal/JNI.java",
+    "terminal-emulator/src/main/java/com/termux/terminal/KeyHandler.java",
+    "terminal-emulator/src/main/java/com/termux/terminal/Logger.java",
+    "terminal-emulator/src/main/java/com/termux/terminal/TerminalBuffer.java",
+    "terminal-emulator/src/main/java/com/termux/terminal/TerminalColorScheme.java",
+    "terminal-emulator/src/main/java/com/termux/terminal/TerminalColors.java",
+    "terminal-emulator/src/main/java/com/termux/terminal/TerminalEmulator.java",
+    "terminal-emulator/src/main/java/com/termux/terminal/TerminalOutput.java",
+    "terminal-emulator/src/main/java/com/termux/terminal/TerminalRow.java",
+    "terminal-emulator/src/main/java/com/termux/terminal/TerminalSession.java",
+    "terminal-emulator/src/main/java/com/termux/terminal/TerminalSessionClient.java",
+    "terminal-emulator/src/main/java/com/termux/terminal/TextStyle.java",
+    "terminal-emulator/src/main/java/com/termux/terminal/WcWidth.java",
+    "terminal-view/src/main/java/com/termux/view/TerminalRenderer.java"
+  ]
+}

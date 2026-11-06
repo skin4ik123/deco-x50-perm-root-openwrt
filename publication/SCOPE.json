@@ -1,0 +1,17 @@
+{
+  "application": "Deco Control",
+  "version": "1.1.1",
+  "runtime_payload_unchanged": true,
+  "packaging_only_changes": [
+    "portable toolchain/signing environment",
+    "temporary Dropbear metadata format compatibility",
+    "public documentation and Ethernet packaging"
+  ],
+  "physical_full_APK_wizard_tested": false,
+  "root_earlier_release_hardware_confirmed": true,
+  "upstream_RAM_boot_hardware_confirmed": true,
+  "two_stage_Ethernet_access_hardware_confirmed": true,
+  "permanent_OpenWrt_installation_from_RAM_owner_confirmed": true,
+  "app_permanent_flash_automation": false,
+  "permanent_installation_image_and_commands_not_in_this_release": true
+}

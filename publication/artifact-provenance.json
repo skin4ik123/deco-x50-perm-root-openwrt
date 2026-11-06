@@ -1,0 +1,69 @@
+{
+  "apk": {
+    "name": "Deco-Control-1.1.1-arm64.apk",
+    "bytes": 14284427,
+    "sha256": "b09c99d71aa12ae4524c0165c3153a0770b076f069c713752b7a091789d54a84",
+    "application_id": "com.internetdeco.decocontrol",
+    "label": "Deco Control",
+    "versionName": "1.1.1",
+    "versionCode": 6,
+    "minSdk": 26,
+    "targetSdk": 36,
+    "compileSdk": 37,
+    "ABI": [
+      "arm64-v8a"
+    ],
+    "debuggable": false,
+    "signer_sha256": "7a19db762989d9f2106df2c3e5f1a150ab80c0e00dddfbf2520a7f7161887c55",
+    "signer_dn": "CN=InternetDeco Release, O=InternetDeco, C=UA",
+    "signature_scheme": "v2",
+    "signature_verified": true,
+    "zipalign_16KiB_verified": true
+  },
+  "existing_test_record": {
+    "version": "1.1.1",
+    "application_id": "com.internetdeco.decocontrol",
+    "signed": true,
+    "signer_sha256": "7a19db762989d9f2106df2c3e5f1a150ab80c0e00dddfbf2520a7f7161887c55",
+    "apk_sha256": "b09c99d71aa12ae4524c0165c3153a0770b076f069c713752b7a091789d54a84",
+    "apk_bytes": 14284427,
+    "release_tests_passed": 83,
+    "rust_tests_passed": 44,
+    "lint_errors": 0,
+    "lint_warnings": 21,
+    "page_alignment_16KiB": true,
+    "fresh_rust_engine_verified": true,
+    "previous_release_root_confirmed_by_owner": true,
+    "original_tftp_ram_route_confirmed_by_owner": true,
+    "this_release_real_android_phone_tested": false,
+    "permanent_firmware_flashing": false,
+    "live_wifi_ssh_timeout_cause_confirmed": false,
+    "description": "Historical APK 1.1.1 build record, predating the owner confirmation of separate permanent installation from RAM."
+  },
+  "audit_operations": [
+    "ZIP metadata and content hashing",
+    "APK public signing certificate and signature verification",
+    "APK manifest badging",
+    "APK ZIP 16KiB alignment check",
+    "own source/archive comparison",
+    "own asset/JNI comparison including aapt gzip expansion",
+    "source scan for owner data and credential literals",
+    "Dropbear patches --dry-run against included upstream archive",
+    "source/UI flow inspection"
+  ],
+  "no_network_build_vm_or_router_actions": true,
+  "original_source_archive": {
+    "name": "Deco-Control-1.1.1-sources.zip",
+    "bytes": 5469352,
+    "sha256": "a0b50708eca750e164237f446a8fcb74372c9a79f75b7c3c9007e53d0c0dda9f",
+    "files": 163,
+    "all_current_deco_control_counterparts_byte_identical": true,
+    "APK_own_assets_and_JNI_matched": 15,
+    "aapt_expands_gzip_assets": true,
+    "JNI_sha256": "b4e73995381ef8942e4a9f9f2b13d2532c17cf7323fcea692e8b1b5b99a5344c",
+    "verification_record_source_hashes_match": true,
+    "complete_rebuild_performed_in_this_audit": false,
+    "build_Dex_from_source_proven_in_this_audit": false,
+    "description": "Original audited input, before public documentation and build-helper changes. The new release source snapshot has a different hash; use release SHA256SUMS.txt."
+  }
+}

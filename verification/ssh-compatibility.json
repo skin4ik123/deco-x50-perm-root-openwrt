@@ -1,0 +1,11 @@
+{
+  "jsch_version": "2.28.0",
+  "actual_arm64_dropbear": true,
+  "password_root": true,
+  "binary_64KiB": true,
+  "pty": true,
+  "reused_session_commands": 10,
+  "login_ms": 452,
+  "ten_commands_ms": 120,
+  "real_wifi_test": false
+}

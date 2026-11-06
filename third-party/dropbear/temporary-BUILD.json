@@ -1,0 +1,32 @@
+{
+  "release": "DROPBEAR_2026.94",
+  "commit": "28216cd9af822732a1549b78621c2ea9a76a0fe5",
+  "musl": "1.2.5",
+  "bytes": 396200,
+  "gzip_bytes": 188333,
+  "sha256": "a73edaccfbfeb010ee93a0a44748d3fa41bb627d9341f060054fac3e122ece2b",
+  "sha1": "211d4831cdc9a9b87367c3ee2e7ba759e5dcf500",
+  "gzip_sha256": "c57774103720a9510dac04d4334c3a24b52441eadbf2d37165c6a7d33365faf6",
+  "static": true,
+  "program_header_types": [
+    1,
+    1,
+    1685382481,
+    1685382482
+  ],
+  "root_only_profile": true,
+  "source_url": "https://github.com/mkj/dropbear/tree/28216cd9af822732a1549b78621c2ea9a76a0fe5",
+  "musl_source_url": "https://musl.libc.org/releases/musl-1.2.5.tar.gz",
+  "musl_source_sha256": "a9a118bbe84d8764da0ea0d28b3ab3fae8477fc7e4085d90102b8596fc7c75e4",
+  "qemu_verification": {
+    "key_auth_and_root_exec": true,
+    "root_pty": true,
+    "wrong_key_rejected": true,
+    "non_root_login_rejected": true,
+    "password_auth_unavailable": true,
+    "loopback_only": true,
+    "actual_arm64_binary_sha256": "a73edaccfbfeb010ee93a0a44748d3fa41bb627d9341f060054fac3e122ece2b"
+  },
+  "localoptions": "#define DROPBEAR_SVR_PASSWORD_AUTH 0\n#define DROPBEAR_SVR_PAM_AUTH 0\n#define DROPBEAR_SVR_PUBKEY_AUTH 1\n#define DROPBEAR_SVR_MULTIUSER 1\n#define DROPBEAR_SVR_DROP_PRIVS 1\n#define DROPBEAR_SVR_LOCALTCPFWD 0\n#define DROPBEAR_SVR_REMOTETCPFWD 0\n#define DROPBEAR_SVR_LOCALSTREAMFWD 0\n#define DROPBEAR_SVR_REMOTESTREAMFWD 0\n#define DROPBEAR_SVR_AGENTFWD 0\n#define DROPBEAR_X11FWD 0\n#define DROPBEAR_SFTPSERVER 0\n#define DROPBEAR_REEXEC 0\n#define DO_MOTD 0\n#define DO_HOST_LOOKUP 0\n",
+  "scope": "Key-only root identity, no account transitions, loopback-only listener selected by launcher. RAM-only deployment; no autostart."
+}

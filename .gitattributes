@@ -1,0 +1,5 @@
+# Preserve the tested Windows uploader byte-for-byte.
+*.cmd -text
+*.ko binary
+*.so binary
+*.gz binary

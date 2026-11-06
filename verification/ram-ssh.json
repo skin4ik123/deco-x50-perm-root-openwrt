@@ -1,0 +1,82 @@
+{
+  "scope": "QEMU user-mode ARM64 OpenWrt Dropbear in an unprivileged root user namespace; host BusyBox child shell",
+  "real_openwrt_hardware_boot_tested": false,
+  "android_runtime_ui_tested": false,
+  "owner_router_contacted": false,
+  "synthetic_accounts_only": true,
+  "loopback_address": "127.0.0.1:9225",
+  "original_itb_sha256": "ce2c49c0fb6dadea9e6430cba9a39ca03f833bb6b20df7d63a9d0ddefeec4ee2",
+  "original_image_sha256": "6c4d0afb6d43dfeeaef6506b5c6148e4102e5a9d446a569d0f2488719c2ca187",
+  "original_initramfs_sha256": "715f1630124ee1791a948c1a06715c6bb9e785caf5deae54eff7338e26820334",
+  "runtime_extracted_from_pinned_itb_during_check": true,
+  "original_runtime_files": {
+    "etc/init.d/dropbear": {
+      "sha256": "af910af501ef0f6587562aa5bc7cff1d61d8066e41d2c77f8c70e9f3c68d5457",
+      "size": 13430,
+      "literal_blank_password_flag_in_init": false
+    },
+    "etc/shadow": {
+      "original_root_password_empty": true
+    },
+    "lib/ld-musl-aarch64.so.1": {
+      "sha256": "b3af8fee8701fb77a9f158b111578260d96e4e499f344fdad5e156f8ede84849",
+      "size": 8
+    },
+    "lib/libc.so": {
+      "sha256": "4f0426cfdd7dee617a2cd6290556c794653289999fe31754df3335be6e378042",
+      "size": 590852
+    },
+    "lib/libgcc_s.so.1": {
+      "sha256": "2667ec4f063bdfb6118a135b42cdac0d24fe1b56e1d28a5448ee68140be4b399",
+      "size": 131088
+    },
+    "usr/sbin/dropbear": {
+      "sha256": "9655589cbc8cc80d70c7603a8f2fd13468f4d22f53b22435578643e4980acbb7",
+      "size": 238699
+    }
+  },
+  "production_ssh_policy": true,
+  "owner_policy": false,
+  "policy_source_sha256": "faa0cded8ca5620c531dcbe081a6d3b628da42bd6c3cd93d77584e2d25f1cda8",
+  "compiled_policy_sha256": "556d37217ab1a08e5301d9a2c70c6d657d41d3476ca2b9b84d672f0fcfb3d41e",
+  "jsch_version": "2.28.0",
+  "qemu_sha256": "532b2c75f44749d4c6db3e5f578a76488bfcd7a261289a89675d2ced24a0bd3c",
+  "checks": {
+    "original_init_default": {
+      "authenticated": true,
+      "authentication_method": "none",
+      "empty_password_byte_array": true,
+      "authentication_method_evidence": "JSch initial none success or explicit method success log",
+      "credential_callback_installed": false,
+      "namespace_root_uid": 0,
+      "key_exchange_completed": true,
+      "changed_host_key_rejected": true,
+      "binary_64KiB": true,
+      "pty": true,
+      "pty_resize": true,
+      "reused_session_commands_after_pty": 10,
+      "login_ms": 75,
+      "ten_commands_ms": 131,
+      "server_banner": "SSH-2.0-dropbear",
+      "server_explicit_blank_flag": false
+    },
+    "explicit_allow_blank": {
+      "authenticated": true,
+      "authentication_method": "none",
+      "empty_password_byte_array": true,
+      "authentication_method_evidence": "JSch initial none success or explicit method success log",
+      "credential_callback_installed": false,
+      "namespace_root_uid": 0,
+      "key_exchange_completed": true,
+      "changed_host_key_rejected": true,
+      "binary_64KiB": true,
+      "pty": true,
+      "pty_resize": true,
+      "reused_session_commands_after_pty": 10,
+      "login_ms": 75,
+      "ten_commands_ms": 107,
+      "server_banner": "SSH-2.0-dropbear",
+      "server_explicit_blank_flag": true
+    }
+  }
+}

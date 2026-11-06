@@ -1,0 +1,30 @@
+diff --git a/src/svr-auth.c b/src/svr-auth.c
+index ca19382..d951339 100644
+--- a/src/svr-auth.c
++++ b/src/svr-auth.c
+@@ -227,6 +227,11 @@ static int check_group_membership(gid_t check_gid, const char* username, gid_t u
+ /* Check that the username exists and isn't disallowed (root), and has a valid shell.
+  * returns DROPBEAR_SUCCESS on valid username, DROPBEAR_FAILURE on failure */
+ static int checkusername(const char *username, unsigned int userlen) {
++	/* This temporary, key-only appliance build serves the existing root identity. */
++	if (userlen != 4 || memcmp(username, "root", 4) != 0 ||
++		getuid() != 0 || geteuid() != 0 || getgid() != 0 || getegid() != 0) {
++		return DROPBEAR_FAILURE;
++	}
+ 
+ 	char* listshell = NULL;
+ 	char* usershell = NULL;
+@@ -500,6 +505,13 @@ static int utmp_gid(gid_t *ret_gid) {
+  */
+ void svr_switch_user(void) {
+ 	assert(ses.authstate.authdone);
++	/* No account transitions: retain only the already-running UID/GID 0.
++	 * This also works in user namespaces where setgroups() is unavailable. */
++	if (getuid() == 0 && geteuid() == 0 && getgid() == 0 && getegid() == 0 &&
++		ses.authstate.pw_uid == 0 && ses.authstate.pw_gid == 0) {
++		return;
++	}
++	dropbear_exit("Temporary root-only server refuses identity changes");
+ 
+ 	/* We can only change uid/gid as root ... */
+ 	if (getuid() == 0) {

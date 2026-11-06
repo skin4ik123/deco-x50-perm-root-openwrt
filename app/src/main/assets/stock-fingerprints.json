@@ -1,0 +1,8 @@
+{
+  "/usr/lib/lua/luci/sys/config.lua": "3c2032ec684a84de24dfe5c7a393754c1f833150c108141daf077f0cb89101a4",
+  "/usr/lib/lua/luci/model/crypto.lua": "aa28f036eb9b10bb02d313ee760b7ca16f5d5a61ee1aca5a7560be0f859f0ac4",
+  "/sbin/saveconfig": "a70dbe40bb51ab6e0e747dee34f707d0d58acd04294f32e5be23b761b8822857",
+  "/lib/firewall/core.sh": "870c13a5cdac507376f813d0a46e93f8f29f9850227763c8f7b20224092f6f00",
+  "/lib/firewall/core_init.sh": "c382e9dca29afa03d4c6514aeb0b52b932bbeb88976ace2958a5ab2590316632",
+  "/etc/rc.common": "3a08c9bf74bc18ea4b119a50c65f7120faf8be926e88ee2fb8269628f1e38f4a"
+}

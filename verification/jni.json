@@ -1,0 +1,12 @@
+{
+  "real_rust_jni": true,
+  "jvm_check_jni": true,
+  "requests": 200,
+  "unicode_roundtrip": true,
+  "malformed_request_rejected": true,
+  "android_device_test": false,
+  "version": "1.1.0",
+  "ram_status_roundtrip": true,
+  "ram_status_has_no_platform_calls": true,
+  "unsupported_RAM_prepare_has_no_writer": true
+}
